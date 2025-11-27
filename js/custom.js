@@ -1,4 +1,5 @@
 $(function () {
+  $("#visual").css({ transform: "scale(1)" });
   $(".brands li").on("click", function () {
     let a = $(this).index();
     $(".brands li").removeClass("cd");
@@ -13,11 +14,15 @@ $(function () {
     $(".our .hotel div").eq(a).addClass("ab");
   });
   $(".inter .menu ul li:first-child").on("click", function () {
+    $(".inter .menu ul li").removeClass("hn");
+    $(this).addClass("hn");
     $(".inter .content .contentbox1").removeClass("kl");
     $(".inter .content .contentbox2").removeClass("mo");
     $(".inter .content .contentbox1").addClass("kl");
   });
   $(".inter .menu ul li:last-child").on("click", function () {
+    $(".inter .menu ul li").removeClass("hn");
+    $(this).addClass("hn");
     $(".inter .content .contentbox2").removeClass("mo");
     $(".inter .content .contentbox1").removeClass("kl");
     $(".inter .content .contentbox2").addClass("mo");
