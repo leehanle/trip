@@ -144,6 +144,8 @@ off*/
     height: 50vh;
     margin: 200px 0px;
     position: relative;
+    opacity: 0;
+    transform: translateY(300px);
   }
   .off .spe {
     background-image: url(../img/bg-main-special-offers-title-4f839708.png);
@@ -602,6 +604,8 @@ off*/
     height: 50vh;
     margin: 200px 0px;
     position: relative;
+    opacity: 0;
+    transform: translateY(300px);
   }
   .off .spe {
     background-image: url(../img/bg-main-special-offers-title-4f839708.png);
@@ -1061,6 +1065,8 @@ off*/
     height: 50vh;
     margin: 200px 0px;
     position: relative;
+    opacity: 0;
+    transform: translateY(300px);
   }
   .off .spe {
     background-image: url(../img/bg-main-special-offers-title-4f839708.png);
@@ -1298,6 +1304,7 @@ inter*/
     width: 100%;
     color: #fff;
     height: 100vh;
+    opacity: 0;
   }
   .inter .menu {
     display: flex;
