@@ -678,7 +678,7 @@ our*/
     position: absolute;
     top: 0px;
     left: 0px;
-    filter: grayscale(0.5);
+    filter: blur(2.5px) grayscale(0.7);
     display: none;
   }
   .hotel div.ab {
@@ -715,9 +715,12 @@ our*/
     font-size: 1.3rem;
     opacity: 0.5;
     cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
   }
   .brands ul li.cd {
     opacity: 1;
+    color: #fff;
   }
   .sub {
     /* border: 1px solid red; */
@@ -861,6 +864,9 @@ inter*/
   .inter .menu ul li {
     cursor: pointer;
     opacity: 0.7;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
   }
   .inter .menu ul li.hn {
     text-decoration: underline;
@@ -1139,7 +1145,7 @@ our*/
     position: absolute;
     top: 0px;
     left: 0px;
-    filter: grayscale(0.5);
+    filter: grayscale(0.3);
     display: none;
   }
   .hotel div.ab {
@@ -1176,12 +1182,14 @@ our*/
   .brands ul li {
     margin: 35px 0px;
     font-size: 1.3rem;
-    opacity: 0.7;
+    color: #ddd;
     cursor: pointer;
     text-decoration: underline;
+    font-weight: bold;
   }
   .brands ul li.cd {
     opacity: 1;
+    color: #fff;
   }
   .sub {
     /* border: 1px solid red; */
@@ -1327,7 +1335,10 @@ inter*/
   }
   .inter .menu ul li {
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.5;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
   }
   .inter .menu ul li.hn {
     text-decoration: underline;
