@@ -1180,8 +1180,8 @@ our*/
     width: 500px;
   } */
   .brands ul li {
-    margin: 35px 0px;
-    font-size: 1.3rem;
+    margin: 45px 0px;
+    font-size: 2rem;
     color: #ddd;
     cursor: pointer;
     text-decoration: underline;
@@ -1209,7 +1209,7 @@ our*/
     margin: 50px 20px;
   }
   .sub .text p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 50px 20px;
   }
   .img li .left {
@@ -1239,11 +1239,11 @@ our*/
   }
 
   .img li .left .leftimg {
-    width: 450px;
+    width: 700px;
     height: 350px;
   }
   .img li .right .rightimg {
-    width: 450px;
+    width: 700px;
     height: 350px;
   }
   .img li .left .leftimg img {
@@ -1257,7 +1257,7 @@ our*/
     object-fit: cover;
   }
   .img li p {
-    /* font-size: 1.2rem; */
+    font-size: 1.1rem;
   }
   /*contianer3
 beau*/
