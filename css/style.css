@@ -1180,8 +1180,8 @@ our*/
     width: 500px;
   } */
   .brands ul li {
-    margin: 45px 0px;
-    font-size: 2rem;
+    margin: 35px 0px;
+    font-size: 1.5rem;
     color: #ddd;
     cursor: pointer;
     text-decoration: underline;
@@ -1239,11 +1239,11 @@ our*/
   }
 
   .img li .left .leftimg {
-    width: 700px;
+    width: 500px;
     height: 350px;
   }
   .img li .right .rightimg {
-    width: 700px;
+    width: 500px;
     height: 350px;
   }
   .img li .left .leftimg img {
