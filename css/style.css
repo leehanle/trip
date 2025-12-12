@@ -152,7 +152,7 @@ off*/
     /* border: 1px solid orange; */
     width: 70%;
     margin: 50px auto;
-    height: 250px;
+    height: 150px;
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -164,7 +164,7 @@ off*/
     left: 50%;
     bottom: 10%;
     transform: translateX(-50%);
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: normal;
   }
   .off .one {
@@ -183,6 +183,7 @@ off*/
   }
   .off .one .stop p {
     margin-bottom: 50px;
+    font-size: 10px;
   }
   .off .one .stop .view {
     /* border: 1px solid yellow; */
@@ -250,8 +251,8 @@ our*/
     /* border: 1px solid red; */
   }
   .brands ul li {
-    margin: 25px 0px;
-    font-size: 1.3rem;
+    margin: 10px 0px;
+    font-size: 15px;
     opacity: 0.5;
     cursor: pointer;
   }
@@ -285,6 +286,7 @@ our*/
     top: 50%;
     transform: translateY(-50%);
     display: none;
+    font-size: 10px;
   }
   .img li .left.gh {
     display: block;
@@ -297,6 +299,7 @@ our*/
     right: 0%;
     bottom: 0px;
     display: none;
+    font-size: 10px;
   }
   .img li .right.ij {
     display: block;
@@ -306,11 +309,11 @@ our*/
   }
 
   .img li .left .leftimg {
-    width: 300px;
+    width: 20%;
     height: 200px;
   }
   .img li .right .rightimg {
-    width: 300px;
+    width: 20%;
     height: 200px;
   }
   .img li .left .leftimg img {
@@ -351,12 +354,12 @@ beau*/
     text-align: center;
   }
   .beau .pink .text P {
-    font-size: 1.5rem;
+    font-size: 10px;
     margin-bottom: 50px;
     animation: float 3s ease-in-out infinite;
   }
   .beau .pink .text h2 {
-    font-size: 3rem;
+    font-size: 20px;
     animation: float 3s ease-in-out infinite;
   }
   @keyframes float {
@@ -467,8 +470,11 @@ inter*/
     height: 100%;
     object-fit: cover;
   }
+  .inter .content .text {
+    width: 50%;
+  }
   .inter .content .text h2 {
-    font-size: 1.5rem;
+    font-size: 15px;
     margin-bottom: 50px;
   }
   /*container5
@@ -485,7 +491,7 @@ best*/
     height: 80%;
     background-position: center;
     background-size: cover;
-    font-size: 1.5rem;
+    font-size: 10px;
     position: relative;
   }
   .best .the .toptext {
@@ -504,12 +510,13 @@ best*/
     background-color: #fff;
     color: #000;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 10px;
     height: 21%;
     /* border: 1px solid red; */
   }
   .best .spe p {
-    padding: 20px 0px;
+    padding: 10px 0px;
+    font-size: 10px;
   }
   /*footer*/
   footer {
