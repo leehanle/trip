@@ -252,7 +252,7 @@ our*/
   }
   .brands ul li {
     margin: 10px 0px;
-    font-size: 17px;
+    font-size: 16px;
     opacity: 0.5;
     cursor: pointer;
   }
@@ -274,16 +274,21 @@ our*/
   }
   .sub .text h2 {
     font-size: 1.5rem;
-    margin: 50px 20px;
+    margin: 0px 20px;
   }
   .sub .text p {
     /* font-size: 1.3rem; */
-    margin: 50px 20px;
+    margin: 10px 20px;
+  }
+  .img {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
   }
   .img li .left {
     position: absolute;
     left: 0%;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     display: none;
     font-size: 10px;
@@ -296,8 +301,8 @@ our*/
   }
   .img li .right {
     position: absolute;
-    right: 0%;
-    bottom: 0px;
+    right: 0px;
+    bottom: -10px;
     display: none;
     font-size: 10px;
   }
@@ -309,12 +314,12 @@ our*/
   }
 
   .img li .left .leftimg {
-    width: 40%;
-    height: 200px;
+    width: 50%;
+    height: 150px;
   }
   .img li .right .rightimg {
-    width: 40%;
-    height: 200px;
+    width: 50%;
+    height: 150px;
   }
   .img li .left .leftimg img {
     width: 100%;
